@@ -79,22 +79,12 @@ Investigating epoxy–concrete bonding for stronger, sustainable infrastructure.
 ---
 
 ## 📌 Pinned Projects
+<!-- PINNED:START -->
 <p align="center">
-  <a href="https://github.com/Brandon-tech530/Guard_U">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Brandon-tech530&repo=Guard_U" />
-  </a>
-  <a href="https://github.com/Brandon-tech530/TradeHub">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Brandon-tech530&repo=TradeHub" />
-  </a>
+  <!-- Auto-filled by GitHub Action -->
+  <em>Loading public repositories...</em>
 </p>
-<p align="center">
-  <a href="https://github.com/ShambaScore/ShambaScoreApp">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShambaScore&repo=ShambaScoreApp" />
-  </a>
-  <a href="https://github.com/Brandon-tech530/Health-App">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Brandon-tech530&repo=Health-App" />
-  </a>
-</p>
+<!-- PINNED:END -->
 
 ---
 
