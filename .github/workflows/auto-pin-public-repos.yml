@@ -1,0 +1,97 @@
+name: Auto-pin public repos in README
+
+on:
+  schedule:
+    - cron: "11 5 * * *"   # daily at 05:11 UTC
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate pinned cards HTML from public repos
+        id: gen
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+
+            const USER = 'Brandon-tech530';
+            const READ = 'README.md';
+            const START = '<!-- PINNED:START -->';
+            const END   = '<!-- PINNED:END -->';
+
+            // === CONFIG: choose how to rank public repos ===
+            const MAX = 4;                    // how many pins to show (4 looks neat)
+            const ORDER = 'pushed';           // 'pushed' for latest activity, or 'stargazers_count' for most stars
+            const IGNORE_FORKS = true;        // exclude forks
+            const IGNORE_ARCHIVED = true;     // exclude archived repos
+
+            // Fetch up to 100 public repos, sorted by recent push
+            const { data: repos } = await github.rest.repos.listForUser({
+              username: USER,
+              per_page: 100,
+              sort: 'pushed',
+              direction: 'desc',
+              type: 'public',
+            });
+
+            // Filter and optionally re-sort
+            let list = repos.filter(r => (!IGNORE_FORKS || !r.fork) && (!IGNORE_ARCHIVED || !r.archived));
+
+            if (ORDER === 'stargazers_count') {
+              list = list.sort((a,b) => b.stargazers_count - a.stargazers_count);
+            } else if (ORDER === 'pushed') {
+              list = list.sort((a,b) => new Date(b.pushed_at) - new Date(a.pushed_at));
+            }
+
+            list = list.slice(0, MAX);
+
+            // Build two-per-row grid of pin cards
+            const rows = [];
+            for (let i = 0; i < list.length; i += 2) {
+              const a = list[i];
+              const b = list[i + 1];
+
+              const card = (repo) => `
+  <a href="${repo.html_url}">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=${USER}&repo=${repo.name}" />
+  </a>`.trim();
+
+              const row = `
+<p align="center">
+  ${a ? card(a) : ''}
+  ${b ? card(b) : ''}
+</p>`.trim();
+
+              rows.push(row);
+            }
+
+            const html = rows.join('\n');
+
+            // Update README between markers
+            let readme = fs.readFileSync(READ, 'utf8');
+            const pattern = new RegExp(`${START}[\\s\\S]*?${END}`, 'm');
+            if (!pattern.test(readme)) {
+              core.setFailed('PINNED markers not found in README.md');
+            } else {
+              const replacement = `${START}\n${html}\n${END}`;
+              readme = readme.replace(pattern, replacement);
+              fs.writeFileSync(READ, readme);
+              core.info('README.md pinned section updated.');
+            }
+
+      - name: Commit & push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(readme): auto-pin public repos"
+          file_pattern: README.md
