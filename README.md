@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=BrandonSagana&style=flat-square&color=blue&label=Visitors" alt="profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=Brandon-tech530&style=flat-square&color=blue&label=Visitors" alt="profile views"/>
   <img src="https://img.shields.io/badge/Flutter-Expert-02569B?logo=flutter&logoColor=white" alt="Flutter badge"/>
   <img src="https://img.shields.io/badge/Dart-Experienced-0175C2?logo=dart&logoColor=white" alt="Dart badge"/>
   <img src="https://img.shields.io/badge/Civil%20Engineering-Innovator-4CAF50" alt="Civil Eng badge"/>
@@ -22,7 +22,8 @@ Building intelligent systems that bridge **engineering, data science, and techno
 ---
 
 ## 🌟 About Me
-I’m a **Civil Engineering student at Dedan Kimathi University of Technology (Kenya)**, blending field engineering with **software innovation**. I build **Flutter apps**, analyze data, wire up **IoT** sensors, and research **smart construction materials** (bio-concrete, epoxy bonding).
+I’m a **Civil Engineering student at Dedan Kimathi University of Technology (Kenya)**, blending field engineering with **software innovation**.  
+I build **Flutter apps**, analyze data, integrate **IoT sensors**, and research **smart construction materials** (bio-concrete, epoxy bonding).
 
 ---
 
@@ -37,22 +38,28 @@ I’m a **Civil Engineering student at Dedan Kimathi University of Technology (K
 ---
 
 ## 💼 Featured Projects
-### 🧭 Guard_U — Campus Safety & IoT Alerts
+### 🧭 Guard_U — Campus Safety & IoT Alerts  
 Smart safety app with IoT sensors, GPS tracking, and emergency alerts.  
 **Stack:** Flutter • Firebase • Google Maps API • GPS/GSM  
-🔗 *Repo:* `BrandonSagana/Guard_U`
+🔗 *Repo:* `Brandon-tech530/Guard_U`
 
-### 💹 TradeHub — Deriv Market Analysis & Trading Bot
+---
+
+### 💹 TradeHub — Deriv Market Analysis & Trading Bot  
 Real-time analytics (even/odd, over/under), indicators, and planning with martingale logic.  
 **Stack:** Flutter • WebSocket API • Provider • fl_chart  
-🔗 *Repo:* `BrandonSagana/TradeHub`
+🔗 *Repo:* `Brandon-tech530/TradeHub`
 
-### 🌾 ShambaScore — Agri-FinTech Credit Scoring
+---
+
+### 🌾 ShambaScore — Agri-FinTech Credit Scoring  
 Credit scoring and loan management for farmers.  
 **Stack:** Flutter • Firebase • Python ML • REST  
 🔗 *Repo:* `ShambaScore/ShambaScoreApp`
 
-### 🧱 Research — Glass Powder Reinforced Epoxy Resin
+---
+
+### 🧱 Research — Glass Powder Reinforced Epoxy Resin  
 Investigating epoxy–concrete bonding for stronger, sustainable infrastructure.
 
 ---
@@ -71,47 +78,45 @@ Investigating epoxy–concrete bonding for stronger, sustainable infrastructure.
 
 ---
 
-## 📌 Pinned Projects (dynamic cards)
+## 📌 Pinned Projects
 <p align="center">
-  <a href="https://github.com/BrandonSagana/Guard_U">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=BrandonSagana&repo=Guard_U" />
+  <a href="https://github.com/Brandon-tech530/Guard_U">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Brandon-tech530&repo=Guard_U" />
   </a>
-  <a href="https://github.com/BrandonSagana/TradeHub">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=BrandonSagana&repo=TradeHub" />
+  <a href="https://github.com/Brandon-tech530/TradeHub">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Brandon-tech530&repo=TradeHub" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/ShambaScore/ShambaScoreApp">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShambaScore&repo=ShambaScoreApp" />
   </a>
-  <a href="https://github.com/BrandonSagana/Health-App">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=BrandonSagana&repo=Health-App" />
+  <a href="https://github.com/Brandon-tech530/Health-App">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Brandon-tech530&repo=Health-App" />
   </a>
 </p>
-
-> Tip: adjust repo names if different.
 
 ---
 
 ## 📊 GitHub Stats & Activity
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BrandonSagana&show_icons=true&theme=radical" height="170" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BrandonSagana&theme=radical" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Brandon-tech530&show_icons=true&theme=radical" height="170" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Brandon-tech530&theme=radical" height="170" />
 </p>
 
 ### 📈 Activity Graph
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BrandonSagana&theme=react-dark&hide_border=true&area=true&radius=16" alt="Activity Graph">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Brandon-tech530&theme=react-dark&hide_border=true&area=true&radius=16" alt="Activity Graph">
 </p>
 
 ### 🏆 Profile Trophies
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=BrandonSagana&theme=algolia&no-bg=true&margin-w=8&margin-h=8&column=6" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Brandon-tech530&theme=algolia&no-bg=true&margin-w=8&margin-h=8&column=6" />
 </p>
 
 ### 🧩 Top Languages
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BrandonSagana&layout=compact&langs_count=8&hide=cmake,makefile" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Brandon-tech530&layout=compact&langs_count=8&hide=cmake,makefile" height="170" />
 </p>
 
 ---
@@ -123,25 +128,14 @@ Investigating epoxy–concrete bonding for stronger, sustainable infrastructure.
 
 ---
 
-## ⏱️ Weekly Coding (WakaTime)
-<!-- WAKATIME:START -->
-<!-- WAKATIME:END -->
-
-### 🎯 WakaTime Languages (last 7 days)
-<p align="center">
-  <img src="assets/wakatime_languages.png" alt="WakaTime language chart (last 7 days)" width="720"/>
-</p>
-
-> Set `WAKATIME_API_KEY` in repo secrets. The chart is generated by a workflow below.
-
----
-
 ## 🌐 Connect With Me
 <p align="center">
-  <a href="https://www.linkedin.com/in/brandon-ongwae-sagana"><img src="https://img.shields.io/badge/LinkedIn-Brandon%20Sagana-blue?style=for-the-badge&logo=linkedin"/></a>
-  <a href="mailto:brandon.sagana@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail"/></a>
-  <a href="https://github.com/BrandonSagana"><img src="https://img.shields.io/badge/GitHub-BrandonSagana-black?style=for-the-badge&logo=github"/></a>
+  <a href="https://www.linkedin.com/in/brandon-sagana-647784293"><img src="https://img.shields.io/badge/LinkedIn-Brandon%20Sagana-blue?style=for-the-badge&logo=linkedin"/></a>
+  <a href="mailto:brandonsagana@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail"/></a>
+  <a href="https://github.com/Brandon-tech530"><img src="https://img.shields.io/badge/GitHub-Brandon--tech530-black?style=for-the-badge&logo=github"/></a>
 </p>
+
+---
 
 ## 🧭 Personal Motto
 > *"Build bridges between engineering and technology — where innovation meets impact."*
