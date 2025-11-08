@@ -11,7 +11,8 @@
   <img src="https://img.shields.io/badge/Flutter-Expert-02569B?logo=flutter&logoColor=white" alt="Flutter badge"/>
   <img src="https://img.shields.io/badge/Dart-Experienced-0175C2?logo=dart&logoColor=white" alt="Dart badge"/>
   <img src="https://img.shields.io/badge/Civil%20Engineering-Innovator-4CAF50" alt="Civil Eng badge"/>
-  <img src="https://img.shields.io/badge/IoT-%F0%9F%9A%80-active-success" alt="IoT badge"/>
+  <img src="https://img.shields.io/badge/IoT-active-success?style=flat-square&logo=arduino&logoColor=white" alt="IoT badge"/>
+
 </p>
 
 # 👋 Hey there, I'm Brandon Ongwae Sagana
